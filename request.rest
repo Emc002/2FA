@@ -1,0 +1,24 @@
+# POST http://localhost:5000/api/register
+# Content-Type: application/json
+
+# {
+#   "username": "anna"
+# }
+
+
+# POST http://localhost:5000/api/verify
+# Content-Type: application/json
+
+# {
+#   "userID": "58e083bf-fb5e-4a6d-bdcd-0286dcd12934",
+#   "token": "451466"
+# }
+
+
+POST http://localhost:5000/api/validate
+Content-Type: application/json
+
+{
+  "userID": "58e083bf-fb5e-4a6d-bdcd-0286dcd12934",
+  "token": "681364"
+}
